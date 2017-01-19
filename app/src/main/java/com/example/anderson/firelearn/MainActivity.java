@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         mStorage = FirebaseStorage.getInstance().getReference();
 
         btImagen = (Button) findViewById(R.id.btImagen);
+
         ivImagen = (ImageView) findViewById(R.id.ivImagen);
 
         mProgress = new ProgressDialog(this);
